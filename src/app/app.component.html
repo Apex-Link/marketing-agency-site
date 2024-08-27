@@ -1,8 +1,10 @@
-
 <nav>
+  <div class="logo">
+    <img src="" alt="Agency Logo" />
+  </div>
   <ul>
     <li><a routerLink="/" routerLinkActive="active-link">Home</a></li>
-    <li><a href="/about">About</a></li>
+    <li><a routerLink="/about" routerLinkActive="active-link">About</a></li>
     <li><a routerLink="/services" routerLinkActive="active-link">Services</a></li>
     <li><a routerLink="/case-studies" routerLinkActive="active-link">Case Studies</a></li>
     <li><a routerLink="/blog" routerLinkActive="active-link">Blog</a></li>
@@ -10,6 +12,18 @@
   </ul>
 </nav>
 
-<!-- Main content area -->
 <router-outlet></router-outlet>
+
+<footer>
+  
+  <div class="footer-content">
+    <p>&copy; 2024 Your Digital Marketing Agency. All rights reserved.</p>
+    <div class="social-media-icons">
+      <a href="#"><img src="assets/icons/facebook.svg" alt="Facebook"></a>
+      <a href="#"><img src="assets/icons/twitter.svg" alt="Twitter"></a>
+      <a href="#"><img src="assets/icons/linkedin.svg" alt="LinkedIn"></a>
+     
+    </div>
+  </div>
+</footer>
 
